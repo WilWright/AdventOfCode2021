@@ -1,6 +1,30 @@
-# About
+# Intro
 
-I decided to upload the entire project instead of just scripts to this repo so the entire structure can be seen. At some point in the event I created AdventHelper to automate a lot of the input parsing. I also automated the creation of each script based off of a template, which seems to have unfortunately left behind invisible formatting characters that can only be seen in GitHub. Because of this I would recommend viewing the Raw form of each day's script if you wish to read the code and my commentary for them. Similarly to a diary, I commented my thought process in each script at the end of each day.
+[Advent of Code 2021](https://adventofcode.com/2021)
+
+Advent of Code is an annual event during the 25 Days of Christmas where each day presents a 2-part programming challenge.​​​​​​​
+
+This was my first time participating in an event like this. I had heard the challenges were similar to tests I would see during tech interviews, and I thought this would be a great way to get familiar with that process. Overall I had a lot of fun with the event. The challenges were interesting and didn't feel like mindless work, instead being more like unique brain teasers.
+
+|Home|Personal Stats|Global Stats|
+|-|-|-|
+|![](README%20Files/homepage.png)|![](README%20Files/personalstats.png)|![](README%20Files/stats.png)|
+
+Advent of Code has a ranking system, where the first 100 people to complete the challenge get points, and the person with the highest points at the end wins. I had no intention of competing this heavily, but as the event went on I still wanted to see how I compared to some of the fastest programmers in the world. A lot of them used Python, and were able to complete the challenges within minutes. I decided to stick with Unity and C# as that was what I was familiar with. I wasn't sure what kinds of challenges there would be, but I figured I could take advantage of using GameObjects and the built in vector math if needed. At the beginning of the event, I had a lot of trouble parsing input, when it seemed like other participants were doing it in one line with Python. A lot of the input needed to be stripped down and split apart in different ways to get the required values, and couldn't just be taken in its raw form. Eventually I created AdventHelper to automate a lot of the process for me. I went from fumbling around with the input for 20 minutes and trying to scutinize all the leftover whitespace and delimiters in my values, to being able to just copy and paste it and have it ready to go for use in the script.
+
+|Generated Helper Component|
+|-|
+|![](README%20Files/script.png)|
+
+|Day 15 Solution Visualized|
+|-|
+|![](README%20Files/search.gif)|
+Here is a visualization I made of my search algorithm for Day 15, which finds the path of lowest risk from the top left corner to bottom right corner, where lower risk cells are represented by the brightness of green pixels.
+
+\
+The code I wrote is not polished or optimized, and represents what my problem solving looks like as a first pass, in order to solve each problem as fast as possible. I also decided to keep both parts for each challenge as separate functions, even though they both used the same code a lot of the time. I did this to show how the problem and solution evolved between each part. I wrote comments at the end of each day in each script to go over my thought process, in a similar way to a diary. There are only a few cases where I looked up the solution to a problem after being stumped, and in a couple other cases I looked for a small hint. Otherwise I tried my best to come up with an original solution, even if took many hours. At the end I was very proud of myself for getting 46 out of 50 stars. Throughout the event I learned about more advanced techniques like memoization, and strengthened my skills for breaking down problems.
+
+Note: I decided to upload the entire project instead of just scripts to this repo so the entire structure can be seen. The script generator seems to have unfortunately left behind invisible formatting characters that can only be seen in GitHub. Because of this I would recommend viewing the Raw form of each day's script if you wish to read the code and my commentary for them.
 
 # Stats
 
