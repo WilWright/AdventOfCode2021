@@ -2,6 +2,10 @@
 
 [Advent of Code 2021](https://adventofcode.com/2021)
 
+**Tools Used: Unity, C#**
+\
+**Contributions: Original solutions and helper tools**
+
 Advent of Code is an annual event during the 25 Days of Christmas where each day presents a 2-part programming challenge.​​​​​​​
 
 This was my first time participating in an event like this. I had heard the challenges were similar to tests I would see during tech interviews, and I thought this would be a great way to get familiar with that process. Overall I had a lot of fun with the event. The challenges were interesting and didn't feel like mindless work, instead being more like unique brain teasers.
